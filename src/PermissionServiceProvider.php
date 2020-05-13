@@ -76,6 +76,7 @@ class PermissionServiceProvider extends ServiceProvider
             $permissionDirectives->hasroleDirective();
             $permissionDirectives->hasanyroleDirective();
             $permissionDirectives->hasallrolesDirective();
+            $permissionDirectives->haspermissiontoDirective();
         });
     }
 }
