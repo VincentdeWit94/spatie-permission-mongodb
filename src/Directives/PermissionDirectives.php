@@ -83,12 +83,12 @@ class PermissionDirectives
      */
     public function haspermissiontoDirective()
     {
-        $this->bladeCompiler->directive('haspermissionto', function ($arguments) {
+        $this->bladeCompiler->directive('allowedto', function ($arguments) {
             list($permissions, $guard) = $this->extractRoleGuard($arguments);
 
             return "<?php if(auth({$guard})->check() && auth({$guard})->user()->hasPermissionTo({$permissions})): ?>";
         });
-        $this->bladeCompiler->directive('endhaspermissionto', function () {
+        $this->bladeCompiler->directive('endallowedto', function () {
             return '<?php endif; ?>';
         });
     }
