@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29c2a5a8-8656-47b9-93f0-de0d5411b1df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-permission-mongodb-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-permission-mongodb-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Directives/PermissionDirectives.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Directives/PermissionDirectives.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PermissionServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PermissionServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Directives/PermissionDirectives.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="355">
               <caret line="88" column="109" selection-start-line="88" selection-start-column="109" selection-end-line="88" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -78,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/Contracts/RoleInterface.php" />
         <option value="$PROJECT_DIR$/src/PermissionServiceProvider.php" />
         <option value="$PROJECT_DIR$/src/Directives/PermissionDirectives.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -185,57 +190,6 @@
               <item name="laravel-permission-mongodb-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-permission-mongodb-1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="laravel-permission-mongodb-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-mongodb-1" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-permission-mongodb-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-mongodb-1" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-permission-mongodb-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-mongodb-1" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-permission-mongodb-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-mongodb-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-permission-mongodb-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-mongodb-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-permission-mongodb-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-mongodb-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Directives" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-permission-mongodb-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-mongodb-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Middlewares" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-permission-mongodb-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-mongodb-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-permission-mongodb-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-permission-mongodb-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Traits" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -271,12 +225,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589313187995</updated>
-      <workItem from="1589313189843" duration="7421000" />
+      <workItem from="1589313189843" duration="7482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7421000" />
+    <option name="totallyTimeSpent" value="7482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1920" height="1177" extended-state="6" />
@@ -412,6 +366,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="88" column="109" selection-start-line="88" selection-start-column="109" selection-end-line="88" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
